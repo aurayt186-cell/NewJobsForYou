@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewJobsForYou - Latest Jobs in Pakistan</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-briefcase"></i>
+                <span>NewJobsForYou</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#jobs">Jobs</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Find Your Dream Job in Pakistan</h1>
+            <p>Discover the latest job opportunities across all industries</p>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search jobs by title, company, or location...">
+                <button id="searchBtn"><i class="fas fa-search"></i> Search</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Jobs Section -->
+    <section id="jobs" class="jobs-section">
+        <div class="container">
+            <h2>Latest Job Listings</h2>
+            <div class="filters">
+                <select id="categoryFilter">
+                    <option value="">All Categories</option>
+                    <option value="IT">Information Technology</option>
+                    <option value="Finance">Finance & Banking</option>
+                    <option value="Healthcare">Healthcare</option>
+                    <option value="Education">Education</option>
+                    <option value="Marketing">Marketing & Sales</option>
+                    <option value="Engineering">Engineering</option>
+                </select>
+                <select id="cityFilter">
+                    <option value="">All Cities</option>
+                    <option value="Karachi">Karachi</option>
+                    <option value="Lahore">Lahore</option>
+                    <option value="Islamabad">Islamabad</option>
+                    <option value="Rawalpindi">Rawalpindi</option>
+                    <option value="Multan">Multan</option>
+                    <option value="Peshawar">Peshawar</option>
+                    <option value="Quetta">Quetta</option>
+                </select>
+            </div>
+            <div id="jobsList" class="jobs-list">
+                <!-- Jobs will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section id="news" class="news-section">
+        <div class="container">
+            <h2>Job Market News</h2>
+            <div id="newsList" class="news-list">
+                <!-- News articles will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About NewJobsForYou</h2>
+            <p>NewJobsForYou is Pakistan's leading job portal dedicated to connecting talented professionals with exciting career opportunities. We bring you the latest job listings, industry news, and career insights from across Pakistan.</p>
+            <div class="stats">
+                <div class="stat-item">
+                    <h3>5000+</h3>
+                    <p>Active Job Listings</p>
+                </div>
+                <div class="stat-item">
+                    <h3>1000+</h3>
+                    <p>Companies Hiring</p>
+                </div>
+                <div class="stat-item">
+                    <h3>50K+</h3>
+                    <p>Registered Users</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <form class="contact-form" id="contactForm">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 NewJobsForYou. All rights reserved. | Made for Pakistani Job Seekers</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

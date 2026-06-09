@@ -1,0 +1,18 @@
+{
+  "name": "newjobsforyou",
+  "version": "1.0.0",
+  "description": "Website for new and latest jobs in Pakistan",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000"
+  },
+  "keywords": [
+    "jobs",
+    "pakistan",
+    "careers",
+    "employment"
+  ],
+  "author": "aurayt186-cell",
+  "license": "MIT"
+}
